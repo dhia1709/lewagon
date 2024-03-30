@@ -1,0 +1,89 @@
+body {
+  background: rgb(235, 233, 237);
+  color: rgb(50, 50, 50);
+  font-family: Helvetica;
+  font-size: 17px;
+  background-image: url("wallpaper.jpg");
+}
+
+img {
+  width: 160px;
+}
+h1 {
+  color: rgb(141, 130, 238);
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  color: rgb(141, 130, 238);
+  font-size: 24px;
+  font-weight: lighter;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.box-white {
+  background: rgb(240, 242, 243);
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: rgb(138, 127, 241);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(175, 167, 244);
+  color: white;
+}
+#bio {
+  margin-bottom: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(138, 127, 241);
+}
+
+.list-inline i:hover {
+  color: rgb(175, 167, 244);
+}
